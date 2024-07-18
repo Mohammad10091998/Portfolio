@@ -55,15 +55,15 @@ function Contact() {
                       "_blank"
                     )
                   }
-                  className="hover:text-stone-400 transition duration-300"
+                  className="hover:text-stone-400 transition duration-300 mx-0.5"
                 >
-                  Linked In
+                  LinkedIn
                 </button>
                 <button
                   onClick={() =>
                     window.open("https://github.com/Mohammad10091998", "_blank")
                   }
-                  className="hover:text-stone-400 transition duration-300"
+                  className="hover:text-stone-400 transition duration-300 mx-0.5"
                 >
                   Github
                 </button>
@@ -71,7 +71,7 @@ function Contact() {
                   onClick={() =>
                     window.open("https://leetcode.com/u/Mohammad_/", "_blank")
                   }
-                  className="hover:text-stone-400 transition duration-300"
+                  className="hover:text-stone-400 transition duration-300 mx-0.5"
                 >
                   Leetcode
                 </button>
