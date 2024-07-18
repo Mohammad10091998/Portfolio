@@ -134,7 +134,7 @@ function Experience() {
               </ExperienceCard>
             </div>
 
-            <div className="my-10 mx-4 sm:mx-8 lg:mx-12">
+            <div className="my-10 mx-4 sm:mx-8 lg:mx-12 text-gray-600 dark:text-gray-300">
               <div className="mx-2 flex flex-col  sm:flex-row sm:items-center justify-between">
                 <div className="flex items-center">
                   <img
@@ -143,23 +143,28 @@ function Experience() {
                     className="h-12 w-12 rounded-full object-contain shadow-sm mr-3"
                   />
                   <div className="flex flex-col">
-                    <h2 className="font-semibold">Chegg Part-Time 2021</h2>
-                    <p className="text-sm text-gray-600">
+                    <h2 className="dark:text-gray-300">
+                      Chegg Freelance Independent Contractor
+                    </h2>
+                    <p className="text-sm text-gray-600 dark:text-gray-300">
                       Solved Engineering Maths Problem
                     </p>
                   </div>
                 </div>
-                <button
-                  className="bg-blue-500 dark:bg-blue-400 text-customLightGray dark:text-gray-800 my-6 h-10 w-40 rounded-lg shadow-lg hover:bg-blue-400 hover:scale-110 hover:shadow-xl transition duration-300 ease-in-out transform"
-                  onClick={() =>
-                    window.open(
-                      "https://drive.google.com/file/d/1eZ3GbL11PWtKdCpeUpaSOwHJK4FlMYtC/view",
-                      "_blank"
-                    )
-                  }
-                >
-                  Certificate
-                </button>
+                <div className="flex flex-col mt-2 sm:pt-8 text-sm">
+                  <p>March 2021 - Jan 2022</p>
+                  <button
+                    className="bg-blue-500 dark:bg-blue-400 text-customLightGray dark:text-gray-800 my-6 h-10 w-40 rounded-lg shadow-lg hover:bg-blue-400 hover:scale-110 hover:shadow-xl transition duration-300 ease-in-out transform"
+                    onClick={() =>
+                      window.open(
+                        "https://drive.google.com/file/d/1eZ3GbL11PWtKdCpeUpaSOwHJK4FlMYtC/view",
+                        "_blank"
+                      )
+                    }
+                  >
+                    Certificate
+                  </button>
+                </div>
               </div>
             </div>
           </div>
