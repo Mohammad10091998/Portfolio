@@ -47,7 +47,7 @@ function Contact() {
               <p className="text-sm text-stone-500 dark:text-stone-400">
                 SOCIALS
               </p>
-              <div className="flex justify-around text-stone-600 dark:text-stone-300 mt-4">
+              <div className="flex justify-around text-sm sm:text-base text-stone-600 dark:text-stone-300 mt-4">
                 <button
                   onClick={() =>
                     window.open(

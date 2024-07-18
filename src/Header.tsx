@@ -58,7 +58,7 @@ function Header() {
                 icon={faCopyright}
                 className="mr-1 transform transition-transform duration-500 group-hover:animate-rotate360"
               />
-              <Link to="/home" className="w-36 overflow-hidden relative">
+              <Link to="/home" className="w-36 overflow-hidden relative text-sm sm:text-base">
                 <p className="font-semibold font-mono transition-transform duration-500 transform group-hover:-translate-x-16">
                   Code by Mohammad
                 </p>
