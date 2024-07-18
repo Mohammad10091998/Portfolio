@@ -158,7 +158,7 @@ const Home = () => {
                   className="shadow-sm p-3 rounded-full hover:text-blue-500"
                   onClick={() =>
                     window.open(
-                      "https://www.linkedin.com/in/asifmohammad1998/",
+                      "https://drive.google.com/file/d/1ebUpsYBaK53Ck7HwFF_kY34a2ISGo353/view",
                       "_blank"
                     )
                   }
