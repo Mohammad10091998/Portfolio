@@ -1,0 +1,25 @@
+@keyframes bulbOn {
+  0% {
+    color: #555555; /* Dimmed light */
+  }
+  100% {
+    color: hsl(60, 76%, 48%); /* Bright light */
+  }
+}
+
+@keyframes bulbOff {
+  0% {
+    color: #ffff00; /* Bright light */
+  }
+  100% {
+    color: #8f8c8c; /* Dimmed light */
+  }
+}
+
+.bulb-on {
+  animation: bulbOn 0.5s forwards;
+}
+
+.bulb-off {
+  animation: bulbOff 0.5s forwards;
+}
