@@ -4,11 +4,14 @@ import { Route, BrowserRouter, Routes, Navigate } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
 import Fallback from "./Fallback";
+import useTitle from "./useTitle";
 
 const Home = lazy(() => import("./Home"));
 const Experience = lazy(() => import("./Experience"));
 const Project = lazy(() => import("./Project"));
 function App() {
+  useTitle("MA");
+
   return (
     <BrowserRouter>
       <Header />
